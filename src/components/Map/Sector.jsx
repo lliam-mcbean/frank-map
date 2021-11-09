@@ -11,7 +11,7 @@ export default function Sector({lat, long, sector, problems, setSector, setAreaP
             setSector(newSector)
             setAreaProblems(problems)
         }} className={'problem-marker'}>
-            <h5>{sector}</h5>
+            <h6>{sector}</h6>
         </Marker>
     )
 }

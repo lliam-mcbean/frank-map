@@ -37,6 +37,8 @@ export default function Map({setSector, setAreaProblems}) {
       mapboxApiAccessToken="pk.eyJ1IjoibGxpYW1tY2JlYW4iLCJhIjoiY2toZmM3amgyMG8wejJzcXBhMXZrZmNobiJ9.RU-E8O0uVhJUEPx92MHVlA"
       onViewportChange={nextViewport => setViewport(nextViewport)}
       onLoad={onMapLoad}
+      width="70vw"
+      height="100vh"
     >
         <Source
           id="mapbox-dem"
